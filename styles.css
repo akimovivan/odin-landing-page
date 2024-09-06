@@ -5,13 +5,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
-  font-family: Gilroy;
-  -webkit-tap-highlight-color: transparent;
-}
-
-* {
   font-size: 18px;
   font-family: Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -37,7 +33,7 @@ button {
     border-radius: 6px;
     color: #fff;
     border: none;
-    padding: 8px 16px;
+    padding: 8px 24px;
 
 }
 
@@ -71,7 +67,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0 20px;
+    padding: 4rem 2rem;
     background: #1f2937;
 }
 
@@ -175,11 +171,53 @@ blockquote {
 
 .quote p {
     align-self: flex-end;
-    padding: 0 60px;
+    padding: 0 4rem;
     font-weight: 700;
     margin: 0;
 }
 
-.footer {
+.cta {
+    flex: 1 1 auto;
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 9rem;
+}
+
+.cta-container {
+    flex: 0 1 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 48rem;
+    height: 8rem;
+    border-radius: 10px;
+    background: #3882f6;
+    gap: 3rem;
+    padding: 0 4rem;
+}
+
+.cta-text * {
+    color: #fff;
+}
+ 
+.cta-button {
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+footer {
+    flex: 1 1 auto;
     background: #1f2937;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
 }
