@@ -162,12 +162,22 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 20px;
+    padding: 6rem 9rem;
     background: #e5e7eb;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
 }
 
 .quote p {
     align-self: flex-end;
+    padding: 0 60px;
+    font-weight: 700;
+    margin: 0;
 }
 
 .footer {
